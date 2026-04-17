@@ -3,69 +3,72 @@
 # This is the single source of truth for your personal data across all modes.
 
 candidate:
-  full_name: "Jane Smith"
-  email: "jane@example.com"
-  phone: "+1-555-0123"
-  location: "San Francisco, CA"
-  linkedin: "linkedin.com/in/janesmith"
-  portfolio_url: "https://janesmith.dev"
-  github: "github.com/janesmith"
-  twitter: "https://x.com/janesmith"
+  full_name: "Parth Chitroda"
+  email: "parthchitroda@gmail.com"
+  phone: "+1-352-871-4073"
+  location: "Seattle, WA"
+  linkedin: "linkedin.com/in/parthchitroda"
+  # portfolio_url: ""
+  github: "github.com/parthc14"
+  # twitter: ""
   # (Optional) Canva resume design ID for visual CV generation via /career-ops pdf.
   # Find it in your Canva design URL: https://www.canva.com/design/DAxxxxxxx/...
   # The ID starts with "D" and is 11 characters long.
   # canva_resume_design_id: "DAxxxxxxxxx"
 
 target_roles:
-  # Your North Star roles — what you're optimizing for
   primary:
-    - "Senior AI Engineer"
-    - "Staff ML Engineer"
-  # Archetypes help the evaluation system score fit
+    - "Senior Software Engineer - Backend"
+    - "Senior Software Engineer - Platform"
+    - "Senior Software Engineer - Infrastructure"
   archetypes:
-    - name: "AI/ML Engineer"
-      level: "Senior/Staff"
-      fit: "primary"        # primary = dream role, secondary = good fit, adjacent = stretch
-    - name: "AI Product Manager"
+    - name: "Backend Engineer"
+      level: "Senior"
+      fit: "primary"
+    - name: "Platform Engineer"
+      level: "Senior"
+      fit: "primary"
+    - name: "Full-Stack Engineer"
       level: "Senior"
       fit: "secondary"
-    - name: "Solutions Architect"
-      level: "Mid-Senior"
+    - name: "Product Engineer"
+      level: "Senior"
+      fit: "secondary"
+    - name: "Infrastructure Engineer"
+      level: "Senior"
       fit: "adjacent"
 
 narrative:
-  # Your professional headline (1 line)
-  headline: "ML Engineer turned AI product builder"
-  # Your exit story — what makes you unique
-  exit_story: "Built and sold my SaaS after 5 years. Now focused on applied AI at scale."
-  # Your top 3-5 superpowers
+  headline: "Backend engineer building scalable distributed systems at Amazon"
+  exit_story: "4+ years at Amazon building event-driven microservices, leading cloud migrations, and optimizing systems that serve millions. Looking for my next challenge at a company where I can own end-to-end product delivery and grow toward engineering leadership."
   superpowers:
-    - "End-to-end ML pipelines"
-    - "Fast prototyping (idea to prod in 2 weeks)"
-    - "Cross-functional communication"
-  # Proof points — projects, articles, case studies with measurable impact
+    - "Distributed systems design and migration at scale"
+    - "End-to-end ownership from design to production"
+    - "Cross-functional collaboration without dedicated PM"
+    - "Performance optimization with measurable cost impact"
+    - "Mentoring engineers and leading small teams"
   proof_points:
-    - name: "Project Alpha"
-      url: "https://janesmith.dev/project-alpha"
-      hero_metric: "Reduced inference latency 40%"
-    - name: "Open Source Tool"
-      url: "https://github.com/janesmith/tool"
-      hero_metric: "2K+ GitHub stars"
-  # Optional: dashboard/demo URL with credentials
-  # dashboard:
-  #   url: "https://janesmith.dev/demo"
-  #   password: "demo-2026"
+    - name: "Event Processing Microservice"
+      hero_metric: "Processing 10K-100K events/day with zero downstream code changes"
+    - name: "NoSQL Migration"
+      hero_metric: "10x throughput, 10% cost reduction, 10M+ records migrated with <5 min downtime"
+    - name: "Serverless Migration"
+      hero_metric: "50% infrastructure cost reduction across API and dashboard traffic"
+    - name: "Workflow Automation"
+      hero_metric: "$63K/month savings across 50 distributed sites"
+    - name: "Performance Optimization"
+      hero_metric: "49% load time improvement (5s to 2.4s), $68/user savings"
+    - name: "Service Decoupling"
+      hero_metric: "$12K/month eliminated in redundant API calls"
 
 compensation:
-  target_range: "$150K-200K"     # Your target total comp
+  target_range: "$180K-$230K"
   currency: "USD"
-  minimum: "$120K"               # Walk-away number
-  location_flexibility: "Remote preferred, 1 week/month on-site possible"
+  minimum: "$160K"
+  location_flexibility: "Seattle preferred, open to SF Bay Area relocation, hybrid/remote OK"
 
 location:
   country: "United States"
-  city: "San Francisco"
+  city: "Seattle"
   timezone: "PST"
-  visa_status: "No sponsorship needed"
-  # For remote roles outside your country:
-  # onsite_availability: "1 week/month in any city"
+  visa_status: "Requires visa sponsorship"
