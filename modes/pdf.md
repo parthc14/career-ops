@@ -21,6 +21,19 @@
 15. Ejecuta: `node generate-pdf.mjs /tmp/cv-{candidate}-{company}.html output/cv-{candidate}-{company}-{YYYY-MM-DD}.pdf --format={letter|a4}`
 15. Reporta: ruta del PDF, nº páginas, % cobertura de keywords
 
+## Page Limit — MANDATORY
+
+**The CV MUST fit on exactly 1 page.** After generating the PDF, check the page count from the `generate-pdf.mjs` output. If pages > 1, tighten until it fits:
+
+1. Reduce margins to `0.45in` top/bottom, `0.5in` left/right
+2. Reduce body font to `10px`, section-title to `10.5px`
+3. Cut bullets: max 2 per job, max 2 lines per bullet
+4. Trim summary to 2 lines
+5. Combine skills into 2-3 lines max
+6. Remove certifications section if present and non-critical
+
+Never sacrifice ATS compliance (single-column, selectable text) to save space.
+
 ## Reglas ATS (parseo limpio)
 
 - Layout single-column (sin sidebars, sin columnas paralelas)
